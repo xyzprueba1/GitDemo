@@ -10,6 +10,9 @@ public class TestMain {
         MathOperation multiply = (a, b) -> a * b;
         MathOperation divide = (a, b) -> a / b;
 
+
+
+
 //        System.out.println(calculate(add));
 //        System.out.println(calculate(subtract));
 //        System.out.println(calculate(multiply));
@@ -34,7 +37,8 @@ public class TestMain {
     private static int calculate(int onScreenNumber, MathOperation mathOperation, int enteredNumber){
 //        int a = 100;
 //        int b = 5;
-
+        System.out.println(onScreenNumber);
+        System.out.println(enteredNumber);
         return mathOperation.operate(onScreenNumber, enteredNumber);
 
     }
