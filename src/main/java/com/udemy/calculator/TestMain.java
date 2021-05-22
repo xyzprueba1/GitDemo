@@ -39,9 +39,9 @@ public class TestMain {
 //        int b = 5;
         System.out.println(onScreenNumber);
         System.out.println(enteredNumber);
-        System.out.println("More updates 1");
-        System.out.println("More updates 2");
+
         System.out.println("more updates 3");
+        System.out.println("tengo sueno");
         return mathOperation.operate(onScreenNumber, enteredNumber);
 
     }
